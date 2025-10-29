@@ -1,3 +1,4 @@
+//This is for mongodb connection
 import mongoose from "mongoose";
 export const dbConnect = async () => {
   console.log(process.env.MONGO_URL);
